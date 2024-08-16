@@ -17,10 +17,6 @@ jobs:
         postgres: [16]
         postgis: ['3.4']
         variant: [alpine]
-        include:
-          - postgres: 16
-            postgis: 3.5.0alpha2
-            variant: alpine
 
     name: Build docker image for ${{ matrix.postgres }}-${{ matrix.postgis }} variant ${{ matrix.variant }}
     runs-on: ubuntu-latest
