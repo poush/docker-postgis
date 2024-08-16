@@ -52,8 +52,8 @@ endif
 
 # The repository and image names default to the official but can be overriden
 # via environment variables.
-REPO_NAME  ?= postgis
-IMAGE_NAME ?= postgis
+REPO_NAME  ?= poush
+IMAGE_NAME ?= postgis-arm
 
 DOCKER=docker
 DOCKERHUB_DESC_IMG=peterevans/dockerhub-description:latest
